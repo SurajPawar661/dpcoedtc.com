@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social p{
+    padding: 0 15px;
+    padding-top: 10px;
+    font-weight: 400;
+  }
+  
+  .social p i{
+    padding: 3px;
+  }
+  
+  .social p i:hover{
+    color: gray;
+  }
+
+#logo-title{
+    width: 158px;
+    margin: 0;
+}
+
+.navbar-nav li a{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav{
+    margin-bottom: 0;
+}
+
+.hr{
+    height: 2px;
+    width: 5%;
+    background-color: #009797;
+}
+
+.teams-hr{
+    height: 2px;
+    width: 38%;
+    background-color: #009797;  
+}
+
+
+.contact-coloumn{
+    padding: 12px;
+    margin: 10px;
+}
+
+.fifth-part-content{
+    padding: 40px 30px 30px 30px;
+  }
+  
+  .logo-title{
+    width: 158px;
+      margin-top: 10px;
+  }
+  
+  .para-part{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  .navs ul li a{ 
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 18px;
+  }
+  
+  .navs ul li a:hover{
+    color: grey;
+  }
+  
+  .navs ul{
+    list-style-type: none;
+  }
+  
+  .navs{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+  }
+  
+  .contact-para{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+
+
+img{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 13px;
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-welcome{
+    background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-width: 100%;
+    min-height: 598px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.background-welcome-lay{
+    background-color: #009797;
+    min-width: 100%;
+    min-height: 598px;
+    opacity: 50%;
+    border-bottom: 8px solid darkcyan;
+}
+
+.background-welcome-overlay{
+    color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  background-color:  transparent;
+}
+  
+.background-welcome-overlay p{
+    padding: 3%;
+}
+
+.exl-btn{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#logo-title{
+    width: 158px;
+    margin: 0;
+}
+
+.navbar-nav li a{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav{
+    margin-bottom: 0;
+}
+
+.aboutus-logo{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 25%;
+}
+
+.aboutus-para{
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.aboutus-para p{
+  letter-spacing: 0.5px;
+  padding: 10px;
+  color: #383838;
+}
+
+.hr{
+  height: 2px;
+  width: 6%;
+  background-color: #009797;
+}
+
+.support-hr{
+  height: 2px;
+  width: 16%;
+  background-color: #009797;
+}
+
+.services-hr{
+  height: 2px;
+  width: 6%;
+  background-color: #009797;
+}
+
+
+
+.index-hr{
+  height: 2px;
+  width: 38%;
+  background-color: #009797;  
+}
+
+.collab-hr{
+  height: 2px;
+  width: 14%;
+  background-color: #009797;
+}
+
+.about-section {
+  padding: 25px 10px;
+}
+
+.sticky {
+  top: 0;
+  width: 100%;
+
+ }
+
+.fifth-part-content{
+  padding: 40px 30px 30px 30px;
+}
+
+.logo-title{
+  width: 158px;
+    margin-top: 10px;
+}
+
+.para-part{
+  margin-top: 15px;
+  padding: 0px 0px 0px 15px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.navs ul li a{ 
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.navs ul li a:hover{
+  color: grey;
+}
+
+.navs ul{
+  list-style-type: none;
+}
+
+.navs{
+  margin-top: 15px;
+  padding: 0px 0px 0px 15px;
+}
+
+.contact-para{
+  margin-top: 15px;
+  padding: 0px 0px 0px 15px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+h5{
+  color: #3a3b3c;
+}
+
+.chairman-img{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.chairman-img img{
+  border-radius: 25%;
+  padding: 15px;
+  margin: 10px;
+}
+
+.chairman-part{
+  display: flex;
+  justify-content: center;
+  padding: 5px 15px;
+  margin: 5px 0;
+}
+
+.sticky-header{
+  position: fixed;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+}
+
+.servies-main-head{
+  margin: 12px 0;
+  padding: 12px 0;
+}
+
+.services-part{
+  display: flex;
+  justify-content: center;
+}
+
+.services-part .card{
+  margin: 10px 0;
+  padding: 8px 0;
+  border: none;
+}
+
+.collab-part{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.collab-img{
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  margin: 8px 0;
+}
+
+.updated{
+  align-items: center;
+}

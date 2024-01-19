@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo-title{
+    width: 158px;
+    margin: 0;
+}
+
+.management-hr{
+  height: 2px;
+  width: 38%;
+  background-color: #009797;  
+}
+
+.navbar-nav li a{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav{
+    margin-bottom: 0;
+}
+
+.social{
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.social p{
+  padding: 0 15px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.social p i{
+  padding: 3px;
+}
+
+.social p i:hover{
+  color: gray;
+}
+
+.comm-head{
+    padding: 30px 20px 30px 20px;
+}
+
+.head{
+  cursor: pointer;
+}
+
+.CA-hr{
+  width: 7%;
+  height: 2px;
+  background-color: #009797;
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+}
+
+.CA-hr:hover{
+  width: 13%;
+  height: 2px;
+  transition: 0.5s;
+}
+
+.cm-hr{
+  width: 12%;
+  height: 2px;
+  background-color: #009797;
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+}
+
+.cm-hr:hover{
+  width: 18%;
+  height: 2px;
+  transition: 0.5s;
+}
+
+.managing-hr{
+    width: 14%;
+    height: 2px;
+    background-color: #009797;
+    position: relative;
+    left: 15px;
+    cursor: pointer;
+}
+
+.managing-hr:hover{
+  width: 20%;
+  height: 2px;
+  transition: 0.5s;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 17rem;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding: 10px 0;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 3px 2px gainsboro;
+}
+
+.comm-head2{
+  padding: 20px;
+    display: flex;
+    justify-content: center;
+ }
+    
+
+.advisor-para{
+  font-size: 20px;
+}
+
+.fifth-part-content{
+    padding: 40px 30px 30px 30px;
+  }
+  
+  .logo-title{
+    width: 158px;
+      margin-top: 10px;
+  }
+  
+  .para-part{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  .navs ul li a{ 
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 18px;
+   
+  
+  }
+  
+  .navs ul li a:hover{
+    color: gray;
+  }
+  
+  .navs ul{
+    list-style-type: none;
+  }
+  
+  .navs{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+  }
+  
+  .contact-para{
+    margin-top: 15px;
+    padding: 0px 0px 0px 15px;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  h5{
+    color: whitesmoke;
+  }
